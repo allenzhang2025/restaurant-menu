@@ -1,0 +1,35 @@
+html {
+	margin: 100;
+	padding: 100;
+	}
+
+body {
+    background-color: #7ccc9e;
+    font-family: cursive;
+	margin: 1000; 
+	padding: 100;
+}
+
+#main {
+    border-style: solid;
+    border-color: palegreen;
+    border-width: 2px;
+}
+
+.pink {
+    color: darkolivegreen
+}
+
+@media (min-width: 600px) {
+    #main {
+        width: 70%
+    }
+
+    #container {
+        display: flex;
+    }
+
+    #sidebar {
+        width: 30%
+    }
+}
