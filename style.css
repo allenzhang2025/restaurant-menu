@@ -3,21 +3,35 @@ html {
 	padding: 100;
 	}
 
+.hide {
+    display: none;
+    }
+        
+.myDIV:hover + .hide {
+    display: block;
+    color: red;
+    }
+      
+
 body {
-    background-color: #7ccc9e;
+    background-color: #eca3e9;
     font-family: cursive;
 	margin: 1000; 
 	padding: 100;
 }
 
+h1 {
+    font-size: 100px;
+}
+
 #main {
     border-style: solid;
-    border-color: palegreen;
+    border-color: pink;
     border-width: 2px;
 }
 
 .pink {
-    color: darkolivegreen
+    color: darkred
 }
 
 @media (min-width: 600px) {
